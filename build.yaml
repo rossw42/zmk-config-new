@@ -22,12 +22,19 @@ include:
 
 # Hillside 48 
 
-  # - board: nice_nano_v2
-  #   shield: hillside48_left
-  # - board: nice_nano_v2
-  #   shield: hillside48_right
+# - board: nice_nano_v2
+#   shield: hillside48_left
+# - board: nice_nano_v2
+#   shield: hillside48_right
 
-  - board: nice_nano_v2
-    shield: cradio_left
-  - board: nice_nano_v2
-    shield: cradio_right
+# - board: nice_nano_v2
+#   shield: cradio_left
+# - board: nice_nano_v2
+#   shield: cradio_right
+
+
+# # Kaz - Using generic_3x5 with custom shield (wired split)
+- board: nice_nano_v2
+  shield: kaz_left
+- board: nice_nano_v2
+  shield: kaz_right
